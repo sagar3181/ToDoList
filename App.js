@@ -193,3 +193,101 @@ export default function App() {
     </View>
   );
 }
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingTop: 50,
+    paddingHorizontal: 20,
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 20,
+  },
+  inputContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  input: {
+    flex: 1,
+    height: 40,
+    borderColor: '#ddd',
+    borderWidth: 1,
+    paddingHorizontal: 10,
+    borderRadius: 5,
+  },
+  addButton: {
+    backgroundColor: '#5C5CFF',
+    height: 40,
+    width: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 50,
+    marginLeft: 10,
+  },
+  doneButton: {
+    backgroundColor: 'green',
+    padding: 10,
+    borderColor: 'black',
+  },
+  done: {
+    color: 'white',
+  },
+  addButtonText: {
+    color: 'white',
+    fontSize: 24,
+    fontWeight: 'bold',
+  },
+  taskContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+    borderBottomColor: '#ddd',
+    borderBottomWidth: 1,
+  },
+  tools: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '30%',
+  },
+  taskText: {
+    fontSize: 16,
+    color: '#333',
+    width: '100%',
+  },
+  editbutton: {
+    color: 'blue',
+    fontSize: 15,
+    fontWeight: '600',
+  },
+  editBtn: {
+    width: '60%',
+  },
+  deleteButton: {
+    color: '#FF5C5C',
+    fontWeight: 'bold',
+    fontSize: 18,
+    width: 20,
+  },
+  clearCompletedButton: {
+    backgroundColor: 'red',
+    height: 40,
+    width: '50%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 5,
+    marginTop: 10,
+    alignSelf:'center',
+    bottom: 10,
+  },
+  clearCompletedButtonText: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+});
